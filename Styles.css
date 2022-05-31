@@ -1,0 +1,61 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#container{
+    position: relative;
+    height: 576px;
+    width: 1440px;
+    overflow: hidden;
+    background-image: url('images/background.png');
+    border-bottom: 1px solid black;
+}
+#bird{
+    position: absolute;
+    background: url('images/bird.png');
+    height: 42px;
+    width: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+}
+.game-over{
+    text-align: center;
+    justify-self: center;
+    font-size: 900%;
+    font-family: 'Press Start 2P', cursive;
+    display: none;
+}
+.pole{
+    position: absolute;
+    height: 225px;
+    width: 50px;
+    background-color: blue;
+    right: -50px;
+}
+#pole_1{
+    top: 0;
+}
+#pole_2{
+    bottom: 0;
+}
+#score_div{
+    background-color: #72e0ff;
+    text-align: center;
+    font-size: 50px;
+    padding: 1px;
+}
+#restart_btn{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: fuchsia;
+    color: white;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
